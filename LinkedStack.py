@@ -1,5 +1,6 @@
 from Node import Node
 
+
 class Stack:
     def __init__(self):
         self.__size: int = 0
@@ -16,6 +17,19 @@ class Stack:
 
     def __len__(self) -> int:
         return self.__size
+
+    def __iter__(self):
+        if self.empty():
+            return iter()
+        else:
+            list_form = []
+            current_node = self.__top
+            while current_node != None:
+                list_form.append(current_node.get_value())
+                current_node = current_node.get_next()
+
+        return iter(list_form)
+
 
     def empty(self) -> bool:
         return self.__size == 0
@@ -37,5 +51,18 @@ class Stack:
         assert not self.empty(), "Pila vacía"
         return self.__top.get_value()
 
+def main():
+    stack = Stack()
+    stack.push(1)
+    stack.push(2)
+    stack.push(3)
+    stack.push(4)
+    stack.push(5)
 
+    for node in stack:
+        print(node)
 
+    print(list(stack))
+
+if __name__ == "__main__":
+    main()
