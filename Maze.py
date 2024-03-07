@@ -40,18 +40,18 @@ class Maze:
 
             return maze_matrix
 
-        self.maze_matrix = load_matrix()
+        self.__maze_matrix = load_matrix()
         self.__start_poss = (0,0)
-        self.__n_rows = len(self.maze_matrix)
-        self.__n_cols = len(self.maze_matrix[0])
+        self.__n_rows = len(self.__maze_matrix)
+        self.__n_cols = len(self.__maze_matrix[0])
         self.__end_poss = (self.__n_rows - 1, self.__n_cols - 1)
-        self.patch = None
+        self.__patch = None
 
 
 
     def find_path(self):
         pass
-        maze_copy = deepcopy(self.maze_matrix)
+        maze_copy = deepcopy(self.__maze_matrix)
 
         stack = Stack()
         stack.push(self.__start_poss)
@@ -89,7 +89,7 @@ class Maze:
 
     def show_path(self):
 
-        maze_copy = deepcopy(self.maze_matrix)
+        maze_copy = deepcopy(self.__maze_matrix)
 
         for i in range(self.__n_rows):
             for j in range(self.__n_cols):
