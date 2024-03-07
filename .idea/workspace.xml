@@ -6,10 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="6fc213c8-8216-4ee0-9c9d-5ddc94b32ea2" name="Changes" comment="">
 <<<<<<< HEAD
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/laberintos/laberinto_muy_grande" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/laberintos/laberinto_muy_muy_grande" afterDir="false" />
 =======
 >>>>>>> parent of 6eff29f (Merge branch 'main' into colorines)
+=======
+=======
+      <change afterPath="$PROJECT_DIR$/laberintos/laberinto_muy_grande" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laberintos/laberinto_muy_muy_grande" afterDir="false" />
+>>>>>>> main
+>>>>>>> 6eff29f (Merge branch 'main' into colorines)
       <change beforePath="$PROJECT_DIR$/.idea/AED1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AED1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
